@@ -8,7 +8,8 @@ import { slash } from './utils/slash'
 import { OutputAsset, OutputChunk } from 'rollup'
 
 const hashRE = /\.(\w+)\.js$/
-const staticInjectMarkerRE = /\b(const _hoisted_\d+ = \/\*#__PURE__\*\/createStaticVNode)\("(.*)", (\d+)\)/g
+const staticInjectMarkerRE =
+  /\b(const _hoisted_\d+ = \/\*#__PURE__\*\/createStaticVNode)\("(.*)", (\d+)\)/g
 const staticStripRE = /__VP_STATIC_START__.*?__VP_STATIC_END__/g
 const staticRestoreRE = /__VP_STATIC_(START|END)__/g
 

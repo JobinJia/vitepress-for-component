@@ -31,8 +31,7 @@ module.exports = {
       { text: '指南', link: '/' },
       {
         text: '更新日志',
-        link:
-          'https://github.com/dewfall123/vitepress-for-component/blob/master/CHANGELOG.md'
+        link: 'https://github.com/dewfall123/vitepress-for-component/blob/master/CHANGELOG.md'
       }
     ],
 
